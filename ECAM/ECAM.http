@@ -1,0 +1,6 @@
+@ECAM_HostAddress = http://localhost:5051
+
+GET {{ECAM_HostAddress}}/meter-reading-uploads/
+Accept: multipart/form-data
+
+###
